@@ -1,1 +1,58 @@
-* { font-size:13pt } 
+* { 
+    font-family: tahoma;
+  }
+  
+  h1 { 
+    font-size: 15pt;
+    line-height:1.5em;
+  }
+  
+  h2 { 
+    font-size: 13pt;
+    margin-top: 10pt;
+    margin-bottom: 1pt;
+  }
+  
+  table {
+    width:100%;
+    font-size: 10pt;
+    margin:0;
+    padding:0;
+    border: collapse;
+  }
+  
+  th {
+    background-color: #555;
+    color:white;
+    padding: 7pt 0;
+    min-width:100px;
+  }
+  
+  td {
+    background-color: #efefef;
+    padding: 3pt
+  }
+  
+  .code {
+    font-family:courier;
+  }
+  
+  .top a {
+    font-size:9pt;
+    text-decoration:none;
+    font-style: italic;
+    color:#555;
+    padding:5pt;
+  }
+  
+  ul.contents {
+    padding:0;
+    margin: 0 0 0 15pt
+  }
+  
+  li.content a {
+    text-decoration:none;
+    color:#555
+  }
+  
+  
