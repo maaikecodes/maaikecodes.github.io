@@ -1,0 +1,50 @@
+.breadcrumbs {
+    display: inline-flex;
+    overflow: hidden;
+  }
+  
+  .breadcrumbs__item {
+    background: #fff;
+    color: #333;
+    padding: 0em 0.75em 0em 1em;
+    position: relative;
+    text-decoration: none;
+  }
+
+  .left {
+    padding-left:0em !important;
+  }
+  
+  .breadcrumbs__item:hover:after,
+  .breadcrumbs__item:hover {
+    color: grey;
+  }
+  
+
+  .breadcrumbs__item:after,
+  .breadcrumbs__item:before {
+    background: white;
+    bottom: 0;
+    clip-path: polygon(50% 50%, -50% -50%, 0 100%);
+    content: "";
+    left: 100%;
+    position: absolute;
+    top: 0;
+    width: 1em;
+    z-index: 1;
+  } 
+  
+  .breadcrumbs__item:before {
+    background: #cbd2d9;
+    margin-left: 1px;
+  }
+  
+  
+  .breadcrumbs__item.is-active {
+    cursor:default;
+  }
+
+  .breadcrumbs__item.is-active:hover {
+    color:#333;
+  }
+  
